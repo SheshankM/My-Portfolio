@@ -41,3 +41,10 @@
   height: 70vh;
   background-color: white;
 }
+
+
+
+/* skills styles */
+#skills-el{
+  padding: 0 20vw;
+}
