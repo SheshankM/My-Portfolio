@@ -45,6 +45,12 @@
 
 
 /* skills styles */
-#skills-el{
+#skills-el1{
   padding: 0 20vw;
+  font-size: 2rem;
+}
+#skills-el{
+  width: 50px;
+  height: 70px;
+  background-color: aqua;
 }
