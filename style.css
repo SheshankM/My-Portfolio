@@ -45,12 +45,27 @@
 
 
 /* skills styles */
-#skills-el1{
-  padding: 0 20vw;
-  font-size: 2rem;
+.skills{
+  background-color: rgb(17, 2, 95);
+  height: 50vh;
 }
-#skills-el{
-  width: 50px;
-  height: 70px;
-  background-color: aqua;
+.skills-parent{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.skills-box{
+  width: 60vw;
+  height: 30vh;
+  background-color: #7373e3;
+  border: 3px solid #3131e6;
+  border-radius: 10px;
+  padding: 3rem 5rem;
+}
+.skills-el{
+  flex-wrap: wrap;
+}
+.icon {
+  font-size: 4rem;
+  margin-right: 20px;
 }
