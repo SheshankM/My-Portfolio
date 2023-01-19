@@ -68,4 +68,33 @@
 .icon {
   font-size: 4rem;
   margin-right: 20px;
+  color: green
+  ;
+}
+
+/* GotoTop */
+
+.gototop{
+  position: fixed;
+  width: 3vw;
+  height: 3vw;
+  background: #27ae60;
+  color: black;
+  bottom: 80vw;
+  right: 2vw;
+  line-height: 3vw;
+  text-decoration: none;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 100px;
+  border-radius: 50%;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 1.5s;
+}
+.gototop.active{
+  bottom: 2vw;
+  right: 2vw;
+  pointer-events: auto;
+  opacity: 1;
 }

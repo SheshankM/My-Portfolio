@@ -30,3 +30,17 @@ let skillEL = document.getElementById('skills-el');
 skills.forEach((x)=>{
   skillEL.innerHTML += x.icon; 
 })
+
+
+
+
+const toTop = document.querySelector('.gototop');
+window.addEventListener('scroll',()=>{
+    if(window.pageYOffset>400){
+        toTop.classList.add('active');
+    }
+    else{
+        toTop.classList.remove('active');
+    }
+})
+
