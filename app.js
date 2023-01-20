@@ -27,8 +27,9 @@ let skills = [
 ];
 
 let skillEL = document.getElementById('skills-el');
+
 skills.forEach((x)=>{
-  skillEL.innerHTML += x.icon; 
+  skillEL.innerHTML += `<div class="icon-container">${x.icon}<div class="skill-name">${x.name}</div></div>`;
 })
 
 
