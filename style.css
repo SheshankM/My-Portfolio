@@ -14,11 +14,6 @@
 
 
 
-.skills{
-  background-color: #140032;
-  height: 200px;
-}
-
 /* Home Styles */
 
 .texts {
@@ -49,7 +44,7 @@
 .skills{
   background-color: rgb(17, 2, 95);
   height: inherit;
-  padding-bottom: 4vh ;
+  padding-bottom: 4vh;
 }
 .skills-parent{
   display: flex;
@@ -94,6 +89,14 @@
   color: black;
   font-weight: bold;
 }
+
+
+
+
+
+
+/* PROJECT STYLES */
+
 
 #Projects{
   background-color: #502c84 ;
@@ -220,3 +223,45 @@
 
 /* EDUCATION STYLES*/
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* MOBILE SCREEN STYLES */
+@media screen and (max-width:430px) {
+  
+  /* HOME STYLES */
+  .Home{
+    flex-direction: column;
+  }
+  .texts{
+    width: 100%;
+    background-color: #27ae60;
+    height: auto;
+  }
+  .line1,.line2{
+    font-size: 30px;
+  }
+
+  /* SKILLS STYLES */
+  .icon-container{
+    height: 110px;
+    width: 100px;
+    padding: 5px 20px;
+
+  }
+  .skills-box{
+    width: 90%;
+    padding: 10px 20px;
+  }
+}
