@@ -219,6 +219,37 @@
   transition: 0.1s;
 }
 
+/* EXPERIENCE STYLES */
+#Experience{
+  height: auto;
+}
+
+.experience-card{
+  width: 70vw;
+  max-width: 600px;
+  height: auto;
+  background-color: rgb(51, 51, 236);
+  margin: 3rem;
+  border-radius: 10px;
+  padding: 10px;
+}
+.experience-card div{
+  color: white;
+}
+.org{
+  font-weight: bolder;
+  font-size: 1.3rem;
+}
+.role{
+  font-size: 1rem;
+  line-height: 25px;
+}
+.duration, .description{
+  font-size: 0.9rem;
+  line-height: 15px;
+}
+
+
 
 
 /* EDUCATION STYLES*/

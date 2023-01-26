@@ -24,6 +24,13 @@ let skills = [
     icon: `<i class="fa-brands fa-node-js icon"></i> `,
   },
 ];
+let skillEL = document.getElementById("skills-el");
+
+skills.forEach((x) => {
+  skillEL.innerHTML += `<div class="icon-container">${x.icon}<div class="skill-name">${x.name}</div></div>`;
+});
+
+
 
 let projects = [
   {
@@ -52,20 +59,8 @@ let projects = [
   }
 
 ];
-let skillEL = document.getElementById("skills-el");
 
-skills.forEach((x) => {
-  skillEL.innerHTML += `<div class="icon-container">${x.icon}<div class="skill-name">${x.name}</div></div>`;
-});
 
-const toTop = document.querySelector(".gototop");
-window.addEventListener("scroll", () => {
-  if (window.pageYOffset > 400) {
-    toTop.classList.add("active");
-  } else {
-    toTop.classList.remove("active");
-  }
-});
 
 let projectcontainer = document.querySelector(".projects-container");
 let projectname = document.querySelector(".project-name");
@@ -90,3 +85,45 @@ function renderProjects(){
 };
 
 renderProjects();
+
+const toTop = document.querySelector(".gototop");
+window.addEventListener("scroll", () => {
+  if (window.pageYOffset > 400) {
+    toTop.classList.add("active");
+  } else {
+    toTop.classList.remove("active");
+  }
+});
+
+
+let experiences = [
+  {
+    org:"Technical Affairs (IIITDMK)",
+    role :'Frontend Developer',
+    duration:"Oct - Nov 2022",
+    description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum modi similique harum voluptas officia ad iure, suscipit distinctio numquam accusantium?"
+  },
+  {
+    org:"Vashisth (IIITDMK)",
+    role :'Frontend Developer',
+    duration:"Dec 2022 - Jan 2023",
+    description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum modi similique harum voluptas officia ad iure, suscipit distinctio numquam accusantium?"
+  },
+
+]
+let exp = document.querySelector('.exp')
+function renderExperiences(){
+  return(
+    exp.innerHTML = experiences.map((experience)=>{
+      return(
+        `<div class="experience-card">
+            <div class="org">${experience.org}</div>
+            <div class="role">${experience.role}</div>
+            <div class="duration">${experience.duration}</div>
+            <div class="description">${experience.description}</div>
+          </div>`
+      )
+    })
+  )
+}
+renderExperiences();
