@@ -94,7 +94,6 @@
 
 
 
-
 /* PROJECT STYLES */
 
 
@@ -253,7 +252,25 @@
 
 
 /* EDUCATION STYLES*/
+#Education{
+  padding: 20px;
+}
+#Education h1 {
+  text-align: center;
+}
 
+.ed-card{
+  width: 600px;
+  height: 150px;
+  background-color: #6b6be4;
+  border: 0;
+  border-radius: 5px;
+}
+.ed-img{
+  width: 220px;
+  height: 150px;
+  background-color: #6dee84;
+}
 
 
 
