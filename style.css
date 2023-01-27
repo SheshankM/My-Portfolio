@@ -92,6 +92,36 @@
 
 
 
+/* ABOUT STYLES */
+#About{
+  margin: 20px;
+}
+.resume-container{
+  position: relative;
+  display: inline;
+  width: auto;
+  height: auto;
+  background-color: black;
+}
+.resume{
+  width: 150px;
+  height: 40px;
+  background-color: white;
+  color: black;
+  font-size: 1.5rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.resume:hover{
+  position: absolute;
+  top: -5px;
+  left: 5px;
+  background-color: black;
+  color: white;
+  transition: 0.5s;
+}
+
 
 
 /* PROJECT STYLES */
