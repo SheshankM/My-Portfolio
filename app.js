@@ -127,3 +127,13 @@ function renderExperiences(){
   )
 }
 renderExperiences();
+
+
+window.addEventListener('scroll',()=>{
+  if(window.pageYOffset > 1900){
+    exp.classList.add('active');
+  }
+  else{
+    exp.classList.remove('active');
+  }
+})
