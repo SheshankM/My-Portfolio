@@ -1,0 +1,32 @@
+
+
+/* Home Styles */
+
+.texts {
+  width: 50vw;
+  height: 90vh;
+  background-color: white;
+  /* align-items: center; */
+  justify-content: center;
+  padding-left: 10vw;
+}
+.line1,.line2 {
+  color: rgb(3, 3, 103);
+  font-size: 3rem;
+  font-weight: 700;
+}
+.line2 span{
+  color: #2f51cb;
+}
+.picture{
+  width: 50vw;
+  height: 70vh;
+  background-color: white;
+}
+
+.picture img{
+  margin: 14vh 0 0 8vw;
+  width: 30vw;
+  height: 70vh;
+  border-radius: 20px;
+}

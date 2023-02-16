@@ -130,7 +130,7 @@ renderExperiences();
 
 
 window.addEventListener('scroll',()=>{
-  if(window.pageYOffset > 1900){
+  if(window.pageYOffset > 1800){
     exp.classList.add('active');
   }
   else{
