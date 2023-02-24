@@ -56,7 +56,13 @@ let projects = [
     viewLink:``,
     codeLink:`https://github.com/SheshankM/Instagram-Clone`,
     img:``
-  }
+  },
+  {
+    projectName:`Microsoft Todo List Clone`,
+    viewlink:``,
+    codelink:``,
+    img:``,
+  },
 
 ];
 
