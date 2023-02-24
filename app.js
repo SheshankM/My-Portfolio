@@ -136,10 +136,20 @@ renderExperiences();
 
 
 window.addEventListener('scroll',()=>{
-  if(window.pageYOffset > 1800){
+  if(window.pageYOffset > 1900){
     exp.classList.add('active');
   }
   else{
     exp.classList.remove('active');
+  }
+})
+
+const projectCard = document.querySelector('.project-card');
+window.addEventListener('scroll',()=>{
+  if(window.pageYOffset > 1400){
+    projectCard.classList.add('active');
+  }
+  else{
+    projectCard.classList.remove('active');
   }
 })

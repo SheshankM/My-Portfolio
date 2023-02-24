@@ -101,6 +101,8 @@
   border-radius: 10px;
   position: relative;
   overflow: hidden;
+  opacity: 0;
+  padding-top: 6vh;
 }
 
 .hover-content{
@@ -158,6 +160,11 @@
   background-color: blue;
   transition: 0.0.5s;
   color: white;
+}
+
+.project-card.active{
+  padding: 0;
+  opacity: 1;
 }
 
 
