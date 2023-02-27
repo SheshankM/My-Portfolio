@@ -1,3 +1,7 @@
 #Contact{
-  height: 200px;
+  height: 500px;
+}
+
+#Contact h1 {
+  text-align: center;
 }

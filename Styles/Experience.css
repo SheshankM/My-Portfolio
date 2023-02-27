@@ -1,0 +1,48 @@
+
+/* EXPERIENCE STYLES */
+.exp{
+  opacity: 0;
+  /* position: relative;
+  left: 2vw;
+  top: 6vh; */
+  padding: 6vh 0 0 2vw;
+  transition: all 0.5s;
+}
+.exp.active{
+  opacity: 1;
+  /* position: relative;
+  left: 2vw;
+  top: 0;
+   */
+  padding: 0 0 0 2vw;
+  
+  width: 98vw;
+}
+#Experience{
+  height: 500px;
+}
+
+.experience-card{
+  width: 70vw;
+  max-width: 600px;
+  height: auto;
+  background-color: rgb(51, 51, 236);
+  margin: 3rem;
+  border-radius: 10px;
+  padding: 10px;
+}
+.experience-card div{
+  color: white;
+}
+.org{
+  font-weight: bolder;
+  font-size: 1.3rem;
+}
+.role{
+  font-size: 1rem;
+  line-height: 25px;
+}
+.duration, .description{
+  font-size: 0.9rem;
+  line-height: 15px;
+}
