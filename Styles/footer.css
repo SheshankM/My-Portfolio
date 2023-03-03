@@ -1,0 +1,21 @@
+.footer{
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  padding: 13vh 7vw 3vh 7vw;
+  
+}
+.footer-descrip{
+  flex: 5;
+}
+.footer-links{
+  flex: 3;
+}
+.footer-links > a{
+  width: fit-content;
+  padding: 3px;
+}
+.contact-info{
+  flex:4;
+}
+

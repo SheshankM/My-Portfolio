@@ -144,12 +144,12 @@ window.addEventListener('scroll',()=>{
   }
 })
 
-const projectCard = document.querySelector('.project-card');
-window.addEventListener('scroll',()=>{
-  if(window.pageYOffset > 1400){
-    projectCard.classList.add('active');
-  }
-  else{
-    projectCard.classList.remove('active');
-  }
-})
+// const projectCard = document.querySelector('.project-card');
+// window.addEventListener('scroll',()=>{
+//   if(window.pageYOffset > 1400){
+//     projectCard.classList.add('active');
+//   }
+//   else{
+//     projectCard.classList.remove('active');
+//   }
+// })
