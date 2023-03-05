@@ -1,12 +1,18 @@
-.footer{
+
+.footer-wrapper{
   width: 100%;
-  height: 60vh;
+  height: 38vh;
   display: flex;
-  padding: 13vh 7vw 3vh 7vw;
-  
+  padding: 3vh 7vw 3vh 7vw;
+  gap: 30px;
+  background-color: aqua;
 }
 .footer-descrip{
   flex: 5;
+}
+.footer-descrip > p{
+  width: 90%;
+  font-size: 1.1rem;
 }
 .footer-links{
   flex: 3;
